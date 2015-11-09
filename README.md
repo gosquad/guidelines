@@ -36,7 +36,7 @@ Specifying the first two parts should be sufficient for anyone to understand wha
 your changes affect. One may optionally add details to the commit message.
 
 Details **must**:
-- Use present tense i.e `Fix`, not `Fixes` or `Fixed`
+- Use singular first-person present tense i.e `Fix`, not `Fixes` or `Fixed`
 - Begin with an imperative i.e. `Add details to instructions`, not `More details in instructions`
 - Have the first letter capitalized
 
