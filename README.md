@@ -1,5 +1,7 @@
 # guidelines
 
+**WORK IN PROGRESS**
+
 ## Commit Messages
 A commit message should be comprehensible at a glance. This can be achieved by composing
 the message in the following order. 
