@@ -33,11 +33,11 @@ square brackets in the commit message and there **should only ever be one**. An 
 
 #### 3. Detail (Optional)
 Specifying the first two parts should be sufficient for anyone to understand what
-your changes affect. One may optionally add detail to the commit message.
+your changes affect. One may optionally add details to the commit message.
 
 Details **must**:
-- Be in present tense
-- Begin with an imperative i.e `Fix`, not `Fixes` or `Fixed`
+- Use present tense i.e `Fix`, not `Fixes` or `Fixed`
+- Begin with an imperative i.e. `Add details to instructions`, not `More details in instructions`
 - Have the first letter capitalized
 
 
