@@ -28,7 +28,7 @@ Use all that apply and seperate them with a space.
 #### 2. Context
 The context should indicate the specific module that is being affected in the commit. It should be wrapped in
 square brackets in the commit message and there **should only ever be one**. An example context could be,
-`[Poll]`. Sometimes the context can be a little ambiguous, so use your best judgement.
+`[Poll]`. Sometimes the context can be a little ambiguous, so use your best judgment.
 
 
 #### 3. Detail (Optional)
