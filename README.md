@@ -1,16 +1,17 @@
 # guidelines
 
 **WORK IN PROGRESS**
+**THIS WILL BE SPLIT INTO DIFFERENT FOLDERS WHEN THERE'S ENOUGH CONTENT**
 
 ## Commit Messages
 A commit message should be comprehensible at a glance. This can be achieved by composing
-the message in the following order. 
+the message in the following order.
 
 **NOTE:** The first two parts **must** be in the commit message
 
 #### 1. Emoji
-The emoji indicates the general purpose of the commit. 
-Use all that apply and seperate them with a space.
+The emoji indicates the general purpose of the commit.
+Use all that apply and separate them with a space.
 
 |      Emoji       | Code               | Purpose                       |
 |:----------------:|:-------------------|:------------------------------|
@@ -53,4 +54,25 @@ Details **must**:
 
 ```
 :cherry_blossom: [Poll] Increase margin size
+```
+
+## Documentation
+
+#### Function Documentation
+Use the [Docblockr](https://atom.io/packages/docblockr) plugin to
+make documentation easier.
+
+```JavaScript
+/**
+ * Start with a capital letter and end with a period.
+ * Put a space in between the function description and the params
+ * if it spans 2 or more lines.
+ *
+ * @param  {Object} options           The lines below indicate what options contain
+ *         {String} [options.thing]   Square brackets mean optional
+ *         {Number} [options.blah=2]  Indicates a default argument
+ * @param  {Boolean} isSwag           
+ * @return {[type]}         [description]
+ */
+function myFunction(options, isSwag) {...}
 ```
