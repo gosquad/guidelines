@@ -14,7 +14,7 @@ master
 |   |   |
 |   |   +-->project/{project-name}
 |   |   |   |
-|   |   |   +-->{project-name}/{task-name}
+|   |   |   +-->project/{project-name}.{task-name}
 |   |   |   |   |
 |   |   |   |   * // commits for task
 |   |   |   |   |
