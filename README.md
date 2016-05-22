@@ -3,6 +3,41 @@
 **WORK IN PROGRESS**
 **THIS WILL BE SPLIT INTO DIFFERENT FOLDERS WHEN THERE'S ENOUGH CONTENT**
 
+## Branching
+Branches should use the following structure and naming scheme:
+```
+master
+|
++-- qa
+|   |
+|   +-- develop
+|   |   |
+|   |   +-->project/{project-name}
+|   |   |   |
+|   |   |   +-->{project-name}/{task-name}
+|   |   |   |   |
+|   |   |   |   * // commits for task
+|   |   |   |   |
+|   |   |   |<--+ // merge request for peer review (small)
+|   |   |   |
+|   |   |   ...
+|   |   |   |
+|   |   |<--+ // merge request for team review (big)
+|   |   |
+|   |   ...
+|   |   |
+|   |<--+ // developer snapshot release for qa testing
+|   |   |
+|   |   ...
+|   |
+|<--+ // release passed testing. good for production.
+|   |
+|   ...
+|
+...
+```
+Project and task branches should be created in order to help track work, although this process could be replaced with an external application (eg. JIRA) in the future.
+
 ## Commit Messages
 A commit message should be comprehensible at a glance. This can be achieved by composing
 the message in the following order.
